@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="test.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <p class="methods">Приведение структуры матрицы к ленточной форме (метод 3)</p>
+    <input type="file" onchange="processFiles(this.files)">
+    <button id="method1">Сделать 1 цикл перестановок</button>
+    <button id="method2">Выполнить все перестановки</button>
+    <button id="dwn">Загрузить результат</button>
+    <table>
+        <tr>
+            <th>
+                <p class="heading">Матрица</p>
+            </th>
+            <th>
+                <p class="heading">Bi</p>
+            </th>
+            <th>
+                <p class="heading">NI</p>
+            </th>
+            <th>
+                <p class="heading">Bavg</p>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <div class="field"></div>
+            </td>
+            <td>
+                <div class="Bi"></div>
+            </td>
+            <td>
+                <div class="NI"></div>
+            </td>
+            <td style="vertical-align: top;">
+                <div class="Bavg"></div>
+            </td>
+        </tr>
+    </table>
+    <script src="test.js"></script>
+</body>
+
+</html>
